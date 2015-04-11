@@ -1,0 +1,131 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+/* Color Palette (from color_system_v20150129.png) */
+$C01   : #8065e4; // purple
+$C01_1 : #715ed3;
+$C01_2 : #6a54d3;
+
+$C02   : #2aabd8; // indigo blue
+$C02_2 : #2494b2;
+
+$C03   : #e765c3; // pink
+$C03_2 : #c64aa8;
+
+$C04   : #66a1e2; // blue
+$C04_2 : #4492d8;
+
+$C05   : #6683e2; // deep blue
+$C05_2 : #4e6fcc;
+
+$C06   : #48cc81;
+
+$C07   : #1ea869; // green
+$C07_2 : #137f4c;
+
+$C08   : #eaa54b;
+
+$C09   : #ffffff;
+$C10   : #f4f4f4;
+$C11   : #b6b6b6;
+$C12   : #757575;
+$C13   : #474747;
+$C14   : #272727;
+$C15   : #111111;
+
+body {
+  font-family: 'Jeju Gothic';
+  color: $C10;
+}
+
+h1, h2, h3 {
+  font-family: 'hanna';
+  font-weight: 400;
+  margin-bottom: 0;
+  color: $C10;
+  text-shadow: 0 0 10px $C14;
+}
+
+.remark-slide-content {
+  background: $C13;
+  background-size: 100% !important;
+  background-position: 0px 0px !important;
+  h1 { font-size: 3em; }
+  h2 { font-size: 2em; }
+  h3 { font-size: 1.6em; }
+  p  { line-height: 1.5em; }
+}
+
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+.remark-code-line-highlighted     { background-color: #373832; }
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+}
+
+li p { line-height: 1.25em; }
+
+.red    { color: #fa0000; }
+.indigo { color: $C02_2;  }
+.pink   { color: $C03_2;  }
+.yellow { color: $C08;    }
+.green  { color: $C06;    }
+
+a, a > code {
+  color: $C08;
+  text-decoration: none;
+}
+
+code {
+  -moz-border-radius: 5px;
+  -web-border-radius: 5px;
+  background: $C01_1;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.inverse1 {
+  background: $C01;
+  code { background: $C03; }
+  .left-column {
+    h2, h3 { color: $C01_2; }
+  }
+}
+.inverse2 {
+  background: $C02;
+  code { background: $C03; }
+  .left-column {
+    h2, h3 { color: $C02_2; }
+  }
+}
+.inverse3 {
+  background: $C03;
+  code { background: $C02; }
+  .left-column {
+    h2, h3 { color: $C03_2; }
+  }
+}
+
+
+/* Two-column layout */
+.left-column {
+  width: 20%;
+  height: 92%;
+  float: left;
+  h2, h3 {
+    color: $C12;
+    text-shadow: none;
+  }
+
+  h2:last-of-type, h3:last-child {
+    color: $C10;
+  }
+}
+
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}

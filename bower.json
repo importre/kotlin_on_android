@@ -1,0 +1,18 @@
+{
+  "name": "kotlin_on_android",
+  "version": "0.0.0",
+  "authors": [
+    "importre <jaeweheo@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "remark": "~0.10.2"
+  }
+}
