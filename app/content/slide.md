@@ -360,6 +360,7 @@ class: center, middle
 # Get it on Google play
 ![](img/popular_qr.png)
 
+https://play.google.com/store/apps/details?id=io.github.importre.popular
 ---
 .left-column[
 ## Popular
@@ -367,13 +368,13 @@ class: center, middle
 ]
 
 .right-column[
-## Popular?
+## Goal
 
-- Popular images and video of Instagram
+- Show popular images and video of Instagram
 
-<video width="800" controls>
-  <source src="img/video.mp4" type="video/mp4">
-</video>
+<img src='img/n5_land.png' width=800 />
+
+https://github.com/importre/popular
 ]
 
 ---
@@ -392,6 +393,8 @@ verticalLayout {
   }
 }
 ```
+## 예제
+[Main Layout of Popular][anko_popular]
 
 .footnote.pull-right[\* [who anko?](http://blog.jetbrains.com/kotlin/2015/04/announcing-anko-for-android/)]
 
@@ -507,28 +510,6 @@ private fun changeNickname(token: String, title: String) {
 ]
 
 ---
-# Android Extension
-## Something Cool~
-
-```kotlin
-// Using R.layout.main
-import kotlinx.android.synthetic.main.*
-
-public class MyActivity : Activity() {
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.main)
-
-        // Instead of findView(R.id.textView) as TextView
-        textView.setText("Hello, world!")
-    }
-}
-```
-
-그런데, 전 안되네요...
-
----
 .left-column[
 ## Pre-conditions
 ## Gradle
@@ -593,6 +574,32 @@ public class MyActivity : Activity() {
 
   - 완벽히 바뀌지 않는 경우도 있으니, 수작업으로...
 ]
+
+---
+class: center, middle
+# 하나 더 🐣
+
+---
+# Android Extension
+## Something Cool~
+
+```kotlin
+// Using R.layout.main
+import kotlinx.android.synthetic.main.*
+
+public class MyActivity : Activity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.main)
+
+        // Instead of findView(R.id.textView) as TextView
+        textView.setText("Hello, world!")
+    }
+}
+```
+
+그런데, 전 안되네요...
 
 ---
 # 트러블슈팅
@@ -670,3 +677,4 @@ class: center, middle
 [eclipse]: http://blog.jetbrains.com/kotlin/2015/03/eclipse-plugin-alpha-is-out/
 [comp_java]: http://kotlinlang.org/docs/reference/comparison-to-java.html
 [comp_scala]: http://kotlinlang.org/docs/reference/comparison-to-scala.html
+[anko_popular]: https://github.com/importre/popular/blob/0.1.0_2/app/src/main/kotlin/io/github/importre/popular/MainActivity.kt#L50-L86
