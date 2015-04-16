@@ -11,6 +11,3 @@ slide = remark.create
   highlightStyle    : 'monokai'
   highlightLanguage : 'remark'
   ratio             : '16:9'
-  navigation: {
-  	scroll: false
-  }
