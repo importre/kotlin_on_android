@@ -48,6 +48,7 @@ class: center, middle
 - IntelliJ -> Android Studio -> 전폭적인 지원?!
 
 - 1.0은 올 여름에! 👏👏👏
+  - https://youtu.be/dJscNr1silY?t=786
 
 
 ## Productivity / Industry
