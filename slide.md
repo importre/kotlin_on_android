@@ -45,7 +45,7 @@ class: center, middle
 .right-column[
 
 ## JetBrains
-- IntelliJ -> Android Studio -> 전폭적인 지원?!
+- IntelliJ > Android Studio > 전폭적인 지원?!
 
 - 1.0은 올 여름에! 👏👏👏
   - https://youtu.be/dJscNr1silY?t=786
@@ -491,7 +491,7 @@ public trait RenoteServiceV1 {
 *   fun patchUser(Body user: User): Observable<UserResult>
 }
 ```
-- M12부터 `trait` -> `interface`
+- M12부터 `trait` > `interface`
 
 ### Rxjava
 ```kotlin
@@ -519,10 +519,11 @@ private fun changeNickname(token: String, title: String) {
 ]
 
 .right-column[
-## Project `Renote!`
+## Project `Renote!` Languages
 
-### - Java: 94%
-### - Kotlin: `6%`
+#### Java 87.7%
+#### HTML 5.8%
+### Kotlin `6.5%`
 
 .right[![](img/launchericon.png)]
 
@@ -605,14 +606,14 @@ public class MyActivity : Activity() {
 ---
 # 트러블슈팅
 ## `NotFoundException`
-- `<YOURS>.java` -> `<YOURS>.kotlin` 했을 때
+- `<YOURS>.java` > `<YOURS>.kotlin` 했을 때
 
-- 다시 빌드 (Rebuild)!
+- 다시 빌드!!!
 
 ## `KotlinFrontEndException`
 - `R.drawable.***`등의 리소스 오류?
 
-- `git clean -f -x -d` -> 다시 프로젝트 임포트!
+- `git clean -f -x -d` > 다시 프로젝트 임포트!
 
 - https://youtrack.jetbrains.com/issue/KT-6625
 
