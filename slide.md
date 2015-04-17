@@ -37,6 +37,13 @@ class: center, middle
 .footnote.pull-right[\* [kotlinlang.org](http://kotlinlang.org/)]
 
 ---
+class: center, middle
+
+## Statically typed programming language
+## targeting the JVM and JavaScript
+100% interoperable with Java™
+
+---
 .left-column[
 # Kotlin
 <img src='img/Kotlin-logo.png' width=150 />
@@ -353,7 +360,7 @@ class: center, middle
 
 ![](img/popular.png)
 # Popular
-A Sample application written in Kotlin and using Anko
+A sample application written in Kotlin and using Anko
 
 ---
 class: center, middle
@@ -403,7 +410,7 @@ verticalLayout {
 
 ---
 class: center, middle, inverse2
-![](http://developer.android.com/images/home/l-hero.png)
+![](img/android.png)
 # Android
 
 ---
