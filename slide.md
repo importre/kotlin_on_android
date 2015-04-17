@@ -31,6 +31,59 @@ layout: false
 
 ---
 class: center, middle
+
+![](img/popular.png)
+# Popular
+A sample application written in Kotlin and using Anko
+
+---
+class: center, middle
+
+# Get it on Google play
+![](img/popular_qr.png)
+
+https://play.google.com/store/apps/details?id=io.github.importre.popular
+---
+.left-column[
+## Popular
+<img src='img/popular.png' width=150 />
+]
+
+.right-column[
+## Goal
+
+- Show popular images and video of Instagram
+
+<img src='img/n5_land.png' width=800 />
+
+https://github.com/importre/popular
+]
+
+---
+# [Anko (앙꼬)](https://github.com/JetBrains/anko)
+
+안드로이드 앱 개발을 쉽고 빠르게 해주는 라이브러리
+
+```kotlin
+verticalLayout {
+  val name = editText()
+
+  button("Say Hello") {
+    onClick {
+      toast("Hello, ${name.text}!")
+    }
+  }
+}
+```
+## 예제
+[Main Layout of Popular][anko_popular]
+
+.footnote.pull-right[\* [who anko?](http://blog.jetbrains.com/kotlin/2015/04/announcing-anko-for-android/)]
+
+.footnote.pull-right[]
+
+---
+class: center, middle
 ![](img/Kotlin-logo.png)
 # Kotlin
 
@@ -354,59 +407,6 @@ public class Renote {
 }
 ```
 ]
-
----
-class: center, middle
-
-![](img/popular.png)
-# Popular
-A sample application written in Kotlin and using Anko
-
----
-class: center, middle
-
-# Get it on Google play
-![](img/popular_qr.png)
-
-https://play.google.com/store/apps/details?id=io.github.importre.popular
----
-.left-column[
-## Popular
-<img src='img/popular.png' width=150 />
-]
-
-.right-column[
-## Goal
-
-- Show popular images and video of Instagram
-
-<img src='img/n5_land.png' width=800 />
-
-https://github.com/importre/popular
-]
-
----
-# [Anko (앙꼬)](https://github.com/JetBrains/anko)
-
-안드로이드 앱 개발을 쉽고 빠르게 해주는 라이브러리
-
-```kotlin
-verticalLayout {
-  val name = editText()
-
-  button("Say Hello") {
-    onClick {
-      toast("Hello, ${name.text}!")
-    }
-  }
-}
-```
-## 예제
-[Main Layout of Popular][anko_popular]
-
-.footnote.pull-right[\* [who anko?](http://blog.jetbrains.com/kotlin/2015/04/announcing-anko-for-android/)]
-
-.footnote.pull-right[]
 
 ---
 class: center, middle, inverse2
