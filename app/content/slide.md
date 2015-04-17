@@ -647,10 +647,10 @@ class: center, middle, inverse1
 
 ---
 # 온라인 데모
-- http://kotlin-demo.jetbrains.com/
+- http://try.kotlinlang.org/
 
-<iframe src="http://kotlin-demo.jetbrains.com/"
-        frameborder="0"height="100%" width="100%">
+<iframe src="http://try.kotlinlang.org/"
+        frameborder="0" height="100%" width="95%">
 </iframe>
 
 ---
